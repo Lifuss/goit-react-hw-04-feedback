@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const countTotalFeedback = ({ good, bad, neutral }) => {
+export const countTotalFeedback = (good, bad, neutral) => {
   const total = good + bad + neutral;
   return total;
 };
